@@ -1,0 +1,70 @@
+.name{
+    display: flex;
+    align-items: center;
+}
+input{
+    height: 20px;
+    
+}
+.date{
+    display: flex;
+    align-items: center;
+}
+.gender{
+    display: flex;
+    align-items: center;
+    height: 20px;
+}
+.checkbox{
+    align-items: center;
+}
+.email{
+    display: flex;
+    align-items: center;
+}
+.phone{
+    display: flex;
+    align-items: center;
+}
+.bot{
+    border:2px solid;
+    height: 350px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.top{
+    border: 2px solid;
+    height: 115px;
+    width: 100%;
+}
+
+*{
+    margin: 5px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h3{
+    position: relative;
+    top:-40px;
+    display: inline-block;
+    background-color: #ededed;
+}
+body{
+    background-color: #ededed;
+    overflow: hidden;
+    background-size: cover;
+}
+.for{
+    position: relative;
+    top:-20px;
+    display:inline-block;
+    background-color: #ededed;
+}
+button{
+    height: 42px;
+    width: 5%;
+    font-weight: bold;
+    position: relative;
+    background-color: white;
+}

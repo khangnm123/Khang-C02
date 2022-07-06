@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1> Mẫu nhập thông tin sinh viên</h1>
+        <hr>
+        <br>
+    </header>
+    <div class="bot">
+    <form>
+        <br>
+        <h3>Thông tin cơ bản</h3>
+        
+        <div class="name">
+            <p>Họ và Tên</p>
+            <input type="text" name="firstname" id="name"> 
+        </div>
+        <div class="date">
+            <p>Ngày sinh</p>
+            <input type="date" name="bday" id="date">
+        </div>
+        <div class="gender">
+            <p>Giới tính</p>
+            <label for="man"></label>
+            <input type="radio" name="gender" value="Nam" id="man">Nam 
+            <label for="man"></label>   
+            <input type="radio" name="gender" value="Nu" id="girl">Nữ
+            <input type="radio" name="gender" value="khac" id="differrent">Khác
+        </div>
+        <div class="checkbox">
+            <p >Tổ hợp xét tuyển</p>
+            <input type="checkbox" name="math" value="Toán" id="math">Toán<br>
+            <input type="checkbox" name="physical" value="Lý" id="physical">Lý<br>
+            <input type="checkbox" name="chemistry" value="Hóa" id="chemistry">Hóa<br>
+            <input type="checkbox" name="English" value="Anh" id="English">Anh<br>
+        </div>
+    </div>
+    <br>
+    <div class="top">
+    <h3 class="for">Thông tin liên lạc</h3> 
+    
+        <div class="email">
+            <p>Email</p>
+            <label for="email"></label>
+            <input type="email" name="email" id="email">
+        </div>
+        <div class="phone">
+            <p>Số điện thoại</p>
+            <input type="phone" name="telephone" min="1" max="9" id="phone">
+        </div>
+    </div>
+    
+    </form>
+    <div class="send">
+        <button>gửi</button>
+    </div>
+</body>
+</html>
